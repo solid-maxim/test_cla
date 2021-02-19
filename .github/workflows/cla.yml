@@ -17,6 +17,6 @@ jobs:
           PERSONAL_ACCESS_TOKEN : ${{ secrets.GITHUB_TOKEN }}
         with:
           path-to-signatures: 'cla/v1/signatures.json'
-          path-to-document: 'https://github.com/solid-maxim/test_cla/tree/cla_signatures/cla.md'
+          path-to-document: 'https://github.com/solid-maxim/test_cla/blob/main/cla.md'
           branch: 'cla_signatures'
           allowlist: bot*
